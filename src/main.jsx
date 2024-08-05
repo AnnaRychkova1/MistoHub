@@ -6,6 +6,7 @@ import GlobalStyle from './globalStyles';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
+  
   <BrowserRouter basename="/MistoHub">
     <GlobalStyle />
     <App />
